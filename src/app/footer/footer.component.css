@@ -1,0 +1,85 @@
+.footer {
+    border-top: 1px solid #e6e6e6;
+    font-size: 15px;
+    height: 20px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.todo-count {
+    float: left;
+    text-align: left;
+}
+
+.filters {
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+.filters li {
+    display: inline;
+}
+
+.filters li a.selected {
+    border-color: #ce4646;
+}
+
+.filters li a {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: inherit;
+    margin: 3px;
+    padding: 3px 7px;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.clear-completed, html .clear-completed:active {
+    cursor: pointer;
+    float: right;
+    line-height: 19px;
+    position: relative;
+    text-decoration: none;
+}
+
+button {
+    -webkit-font-smoothing: antialiased;
+    -webkit-appearance: none;
+    appearance: none;
+    background: none;
+    border: 0;
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+}
